@@ -1,6 +1,4 @@
 from tkinter import*
-from data import question_data
-from quiz_brain import*
 THEME_COLOR = "#375362"
 
 class QuizInterface:
