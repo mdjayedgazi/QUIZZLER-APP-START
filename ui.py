@@ -19,7 +19,7 @@ class QuizInterface:
         self.score.grid(row=0,column=1)
         # Button
         self.right_button = Button(image=self.right_img,highlightthickness=0,bd=0,)
-        self.right_button.grid(row=3,column=0,pady=10)
+        self.right_button.grid(row=3,column=1,pady=10)
         self.wrong_button = Button(image=self.wrong_img,highlightthickness=0,bd=0)
-        self.wrong_button.grid(row=3,column=1,pady=10)
+        self.wrong_button.grid(row=3,column=0,pady=10)
         self.root.mainloop()
